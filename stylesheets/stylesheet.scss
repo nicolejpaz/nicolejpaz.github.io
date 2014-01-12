@@ -1,0 +1,64 @@
+$border-style: 3px solid #ccc;
+
+body {
+  background: url('../images/background.png');
+}
+
+#container {
+  width: 93%;
+  max-width: 1125px;
+  margin: 0 auto;
+  font-family: 'Averia Sans Libre', sans-serif;
+  background: #fff;
+  padding: 10px;
+  border: $border-style;
+  box-shadow: 5px 5px 5px #999;
+}
+
+header {
+  clear: both;
+  height: 150px;
+
+  a {
+    font-size: 24px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #ff6440;
+}
+
+nav {
+  float: left;
+  padding: 0 10px 10px 0;
+  border-right: $border-style;
+  border-bottom: $border-style;
+  margin-right: 10px;
+
+  h2 {
+    font-size: 40px;
+    margin-top: 0;
+  }
+}
+
+.reason {
+  color: red;
+}
+
+#social-media {
+  margin-left: 20px;
+}
+
+footer {
+  border-top: $border-style;
+
+  p {
+    font-size: 10px;
+  }
+}
