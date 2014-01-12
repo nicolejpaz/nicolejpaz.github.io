@@ -3,71 +3,97 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" />
+    <link href='http://fonts.googleapis.com/css?family=Averia+Sans+Libre' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" /> -->
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Nicole Paz by nicolejpaz</title>
+    <title>Nicole Paz</title>
   </head>
 
   <body>
     <div id="container">
-      <div class="inner">
+      <header>
+        <h1>Nicole Paz</h1>
+        <a href="https://github.com/nicolejpaz" id="view-on-github" class="button"><span>View on GitHub</span></a>
+      </header>
 
-        <header>
-          <h1>Nicole Paz</h1>
-          <h2></h2>
-        </header>
+      <nav>
+        <h2>About Me</h2>
+        <ul>
+          <li><a href="#code">Coding Projects</a></li>
+          <li><a href="#in-progress">In Progress</a></li>
+          <li><a href="#non-code">Non Coding Projects</a></li>
+          <li><a href="#hobbies">Hobbies and Interests</a></li>
+        </ul>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/nicolejpaz" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+      <section id="social-media">
+        <p><a href="https://www.facebook.com/nicolejpaz"><img src="http://i.minus.com/ibhhPmKvwD7kxj.png"></a> 
+        <a href="http://twitter.com/NJPaz"><img src="http://i.minus.com/iHL7P9RyMCOSw.png"></a> 
+        <a href="https://plus.google.com/u/0/106098982788631235174/posts"><img src="http://i.minus.com/ibhYZdfwcZTAG2.png"></a>  
+        <a href="http://www.linkedin.com/pub/nicole-paz/38/a36/a16"><img src="http://i.minus.com/ibd1CpDJmWAgAb.png"></a></p>
+      </section>
+      </nav>
 
-        <hr>
-
-        <section id="main_content">
-          <h1>
-<a name="nicole-paz" class="anchor" href="#nicole-paz"><span class="octicon octicon-link"></span></a>Nicole Paz</h1>
-
-<h3>
-<a name="coding-experience" class="anchor" href="#coding-experience"><span class="octicon octicon-link"></span></a>Coding Experience</h3>
-
-<p><a href="http://devbootcamp.com">Dev Bootcamp</a>: Fox Squirrels, Fall 2013</p>
-
-<p><a href="http://rubygems.org/gems/hexer">Hexer Gem</a>: Generates a random hex triplet. It can be used in any project that needs a random color.</p>
-
-<p><a href="http://diet-intersection.herokuapp.com/">Diet Intersection</a>: Small app that takes two diets and displays the common foods from both.</p>
-
-<p><a href="https://github.com/fox-squirrels-2013/location-api">Deal Location API</a>: Simple API that provides local deals. Currently uses seed data only.</p>
-
-<p><a href="https://github.com/gd7627a/Impeccable-Taste">Movie Royale</a>: Pits two actors against one another, using their popularity to determine the winner.</p>
-
-<p><a href="http://rubygems.org/gems/faker_dnd">DnD Faker Gem</a>: Small gem that generates classes, races, and professions for Dungeons and Dragons players.</p>
-
-<p><a href="https://github.com/fox-squirrels-2013/tom_nicole_craigslist_rails/tree/friendly_id_implementation">Craigslist Jr in Rails</a>: The first Rails project. It allows users to create posts in categories, and provides an obfuscated URL to allow the poster to edit or delete the post privately. </p>
-
-<h3>
-<a name="non-coding-projects" class="anchor" href="#non-coding-projects"><span class="octicon octicon-link"></span></a>Non-Coding Projects</h3>
-
-<p><a href="http://www.meetup.com/NWA-Game-Developer-Group/">NWA Game Developer Group</a>: Collaborated to make a video game. Said game never launched.</p>
-
-<p>CATV: Created graphics and edited video for a local access television program.</p>
-
-<h3>
-<a name="social-media-profiles" class="anchor" href="#social-media-profiles"><span class="octicon octicon-link"></span></a>Social Media Profiles:</h3>
-
-<p><a href="https://www.facebook.com/nicolejpaz"><img src="http://i.minus.com/ibhhPmKvwD7kxj.png"></a> <a href="http://twitter.com/NJPaz"><img src="http://i.minus.com/iHL7P9RyMCOSw.png"></a> <a href="https://plus.google.com/u/0/106098982788631235174/posts"><img src="http://i.minus.com/ibhYZdfwcZTAG2.png"></a> <a href="http://www.linkedin.com/pub/nicole-paz/38/a36/a16"><img src="http://i.minus.com/ibd1CpDJmWAgAb.png"></a></p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
+      <div class="content">
         
+        <h2>Code</h2>
+        <section id="code">
+          <section>
+            <h3>Dev Bootcamp</h3>
+
+            <p><a href="http://rubygems.org/gems/faker_dnd">DnD Faker Gem</a>: Small gem that generates classes, races, and professions for Dungeons and Dragons players. People actually download this on RubyGems.org</p>
+            <p><a href="https://github.com/fox-squirrels-2013/location-api">Deal Location API</a>: Simple API that provides local deals. Currently uses seed data only.</p>
+            <p><a href="https://github.com/gd7627a/Impeccable-Taste">Movie Royale</a>: Pits two actors against one another, using their popularity to determine the winner.</p>
+            <p><a href="https://github.com/fox-squirrels-2013/tom_nicole_craigslist_rails/tree/friendly_id_implementation">Craigslist Jr in Rails</a>: The first Rails project. It allows users to create posts in categories, and provides an obfuscated URL to allow the poster to edit or delete the post privately. </p>
+          </section>
+          <section>
+            <h3>Because It's Fun, Dammit</h3>
+
+            <p><a href="http://rubygems.org/gems/hexer">Hexer Gem</a>: Generates a random hex triplet. It can be used in any project that needs a random color.</p>
+            <p><a href="http://diet-intersection.herokuapp.com/">Diet Intersection</a>: Small app that takes two diets and displays the common foods from both.</p>
+          </section>
+        </section>
+
+        <h2>In Progress</h2>
+        <section id="in-progress">
+          <h3>Actually Has Code on Github</h3>
+          <p><a href="https://github.com/nicolejpaz/weather_alert">Weather Alert</a>: A weather alert app that sends a text to a user if there are any warnings issued by the National Weather service. They can choose on the website whether they want to get all of them, or only the ones labelled severe or extreme (yes, the NWS does have an extreme category, because weather can be really neat).</p>
+          <p><a href="https://github.com/nicolejpaz/card_it">CardIt</a>: An app that has a set of flashcards for the user to learn more about a subject. It will allow them to create their own flashcards. Am making it because my new car allows me to use the NATO phonetic alphabet to enter in an address in the navigation, and I'm too lazy to make flash cards (you know, because pens are just <em>so</em> heavy).</p>
+
+          <h3>Currently Planning</h3>
+          <p><span class="no-link">Look Up Genetics</span>: Ever since 23andme was forced to take away some of their functionality, there is a gaping hole that needs to be filled. This will allow doctors to easily look up any medical problems that may arise based off of a 23andme report. <span class="reason">Reason for this:</span> doctors have a hard time finding this information themselves, and it's important for a patient to know. My cousin is helping me find more information on the subject, and I'm currently scouring assorted online information and libraries in order to learn more about genetic testing.</p>
+        </section>
+
+        <h2>Non Coding Projects</h2>
+        <section id="non-code">
+          <p>Music!: I'm a huge music nerd. I play quite a few instruments, from the piano to the mountain dulcimer. I also collect instruments, so please keep me away from any music shops for my own safety. Especially the accordion music shop in Oakland; I think my roommate would kill me.</p>
+
+          <p>Silicone Molding: Am learning how to create molds in order to create cool objects.</p>
+
+          <p>Writing the Next Great American Novel: Okay, I'm not, but it's a novel about an invisible person (literally invisible) whose only contact with the world is through the internet.</p>
+
+          <p>Writing Another Novel: It's a work that's about a woman who finds a father and daughter team who are running away from a cult. The father was involved in the cult since birth, and they have to work together to stop it, as well as heal the damage caused by the family's past experiences. (Better than it sounds, I swear!) The woman is a programmer in the 80's, and it required a good deal of research into everything from COBOL to phone phreaking.</p>
+
+          <p><a href="http://www.meetup.com/NWA-Game-Developer-Group/">NWA Game Developer Group</a>: Collaborated to make a video game. Said game never launched.</p>
+
+          <p>CATV: Created graphics and edited video for a local access television program.</p>
+        </section>
+
+        <h2>Hobbies and Interests</h2>
+        <section id="hobbies">
+          <p>Music, crafts (sewing, knitting, needlework, crochet, leatherworking etc), molding, (hoping to) play with Raspberry Pi, minor dabbling in electronics and robotics, drawing, painting, programming, writing, playing with assorted Linux distros (I once installed Ubuntu on a MacBook, meaning I had to work around EFI before it was cool).</p>
+          <p>Basically, I love working with my hands. I've done my own home renovations in the past, and am aching to work on my car. I've also replaced parts in my computers.</p>
+        </section>
       </div>
+      <footer>
+        <p>&copy 2014 Nicole Paz</p>
+        <p>All code projects above are covered under the MIT License.</p>
+      </footer>
     </div>
   </body>
 </html>
