@@ -27,6 +27,14 @@ header h1 {
   margin-bottom: 20px;
 }
 
+.profile-img img {
+  width: 180px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
 a {
   text-decoration: none;
   color: #ff6440;
