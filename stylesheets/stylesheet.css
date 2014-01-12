@@ -1,5 +1,3 @@
-$border-style: 3px solid #ccc;
-
 body {
   background: url('../images/background.png');
 }
@@ -11,22 +9,22 @@ body {
   font-family: 'Averia Sans Libre', sans-serif;
   background: #fff;
   padding: 10px;
-  border: $border-style;
+  border: 3px solid #ccc;
   box-shadow: 5px 5px 5px #999;
 }
 
 header {
   clear: both;
   height: 150px;
+}
 
-  a {
-    font-size: 24px;
-  }
-  
-  h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
-  }
+header a {
+  font-size: 24px;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -37,14 +35,18 @@ a {
 nav {
   float: left;
   padding: 0 10px 10px 0;
-  border-right: $border-style;
-  border-bottom: $border-style;
+  border-right: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
   margin-right: 10px;
+}
 
-  h2 {
-    font-size: 40px;
-    margin-top: 0;
-  }
+nav h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
 }
 
 .reason {
@@ -56,9 +58,9 @@ nav {
 }
 
 footer {
-  border-top: $border-style;
+  border-top: 3px solid #ccc;
+}
 
-  p {
-    font-size: 10px;
-  }
+footer p {
+  font-size: 10px;
 }
